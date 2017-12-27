@@ -1,0 +1,236 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.header {
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  margin: 0px auto;
+  z-index: 1;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  color: seashell;
+  padding-left: 10px;
+  justify-content: flex-start;
+}
+
+.navigation {
+  height: 69px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: underline;
+}
+
+.navigation span {
+  padding: 20px;
+}
+
+.hyperlink {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  padding-top: 70px;
+  background-color: black;
+  width: 100%;
+  color: seashell;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.mission h2 {
+  background-color: black;
+  width: 1200px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.mission h4 {
+  background-color: black;
+  width: 1200px;
+  padding: 10px 0px;
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+}
+
+.features {
+  width: 1000px;
+  flex-direction: row;
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features h2 {
+  width: 1000px;
+  text-align: center;
+}
+
+#Tagline {
+  width: 1000px;
+  padding: 20px 0px;
+  position: relative;
+  bottom: 60px;
+}
+
+#SpecialsList {
+  position: relative;
+  bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.specials {
+  width: 300px;
+  height: auto;
+  padding: 0px;
+  margin: 10px;
+  position: relative;
+  top: 200px;
+}
+
+#SpecialOne {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+#SpecialTwo {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+#SpecialThree {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+#SpecialFour {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+#SpecialFive {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.locations h2 {
+  margin: 0px;
+  padding: 10px;
+  width: 1200px;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.address {
+  background-color: black;
+  height: 261px;
+  width: 280px;
+  margin: 5px 20px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+}
+
+#Oakdale {
+  opacity: 1;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  text-align: center;
+}
+
+.copyright {
+  background-color: black;
+  text-align: left;
+  padding: 30px 20px;
+
+}
+
+.copyright h5 {
+    margin: 0px;
+}
